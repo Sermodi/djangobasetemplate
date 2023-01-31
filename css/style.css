@@ -1,0 +1,89 @@
+body{
+   font-family: 'Montserrat', sans-serif;
+      }
+.fondo{
+    background: url("../img/fondomenu.jpg") no-repeat;
+    background-size:cover ;
+    min-height: 10rem;
+}
+.fondo1{
+    background: url("../img/fondomenu1.png") no-repeat;
+    background-size: cover;
+    min-height:60rem;
+ 
+}
+.opa{
+  opacity: 0.90;
+}
+
+
+/*.color{    
+    color: #A71930;
+}*/
+.titulo{
+    font-size: 5rem;
+}
+.sombra {
+ /* color: #aa182c; */
+  font-size: 25px;
+    color: rgba(255,255,255,.3);
+    text-shadow: 0 0 15px rgba(255,255,255,.5), 0 0 10px rgba(255,255,255,.5);
+}
+.sombra1 {
+ /* color: #aa182c; */
+  
+    color: rgba(255,255,255,.3);
+    text-shadow: 0 0 15px rgba(255,255,255,.5), 0 0 10px rgba(255,255,255,.5);
+}
+footer{
+    bottom: 0;
+    width: 100%;
+}
+ a, a:hover,a:visited, a:focus {
+    text-decoration:none;
+}
+.boton{
+    max-width: 56px;
+}
+
+.page-item.active .page-link{
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+.page-link{
+    color: #dc3545;
+}
+.page-link:hover{
+    border-color: #d38088;
+    background-color: #d38088;
+    color: white;
+}
+
+.form-check-input:checked{
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.form-check-input{
+    background-color: white;
+    border-color: #d38088;
+}
+.form-check-input:focus{
+   color : white;
+   border-color:  #d38088;
+   box-shadow: 0 0 0 0.25rem #d3808888;
+}
+.card-name{
+    font-size: 1rem;
+    font-weight: bolder;
+}
+.card-type{
+    font-size: .8rem;
+}
+
+.nav-link.btn-outline-dark{
+    color: #000 !important;
+}
+.nav-link.btn-outline-dark:hover{
+    color: #FFF !important;
+}

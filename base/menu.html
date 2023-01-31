@@ -1,0 +1,38 @@
+{% load static %}
+<div class="row">
+      <div class="pt-2  d-flex justify-content-center"  ><img src="{% static 'img/logo1.png' %}" class="img-fluid rounded-start" alt="..."></div>
+      <div class="d-flex justify-content-between">
+        <div class="btn btn-sm pe-4 ">
+          <a class="btn btn-outline-light " type="button" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">  Menú </a>
+        </div>
+         <h1 class=" pt-2 sombra lead " >NOMBRE DE LA APP</h1>
+        <div class="opacity-0">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+  <!---offcanvas-->
+      </div>
+     <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+       <div class="offcanvas-header">
+         <!--<h5 class="offcanvas-title" id="offcanvasExampleLabel" >Menú</h5>-->
+                  <img src="{% static 'img/logo1.png'%}" class="img-fluid rounded-start" alt="...">
+         <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+       </div>
+       <span>Hola {{username}}.</span>
+       <div class="offcanvas-body">
+        <ul class="nav flex-column mb-5">
+           <li class="nav-item border border-top-0 border-start-0 border-end-0 mb-2">
+            <a class="nav-link btn btn-outline-dark border-top-0 border-start-0 border-end-0 fs-4 text-start" href="#" > <i class="bi bi-journal-plus fs-2 me-4"></i> Inicio</a>           
+           </li>
+           <li class="nav-item border border-top-0 border-start-0 border-end-0 mb-3 border-dark">
+           </li>
+           <li class="nav-item border border-top-0 border-start-0 border-end-0 mb-2">
+            <a class="nav-link btn btn-outline-dark border-top-0 border-start-0 border-end-0 fs-4 text-start" href="#" > <i class="bi bi-person-rolodex fs-2 me-4"></i> Menu2</a>           
+           </li>
+           <li class="nav-item border border-top-0 border-start-0 border-end-0 mb-2">
+            <a class="nav-link btn btn-outline-dark border-top-0 border-start-0 border-end-0 fs-4 text-start" href="#" > <i class="bi bi-people-fill fs-2 me-4"></i> Menu3</a>           
+           </li>
+           <li class="nav-item border border-top-0 border-start-0 border-end-0 mb-2">
+            <a class="nav-link btn btn-outline-dark border-top-0 border-start-0 border-end-0 fs-4 text-start" href="#"> <i class="bi bi-card-checklist fs-2 me-4"></i> Menu4</a>             
+           </li>
+        </ul>
+        <a class="mt-5 btn btn-outline-dark border-top-0 border-start-0 border-end-0 fs-4 text-start" href="#"> <i class="bi bi-door-closed fs-2 me-4"></i> CERRAR SESIÓN</a>
+       </div>
+     </div>
