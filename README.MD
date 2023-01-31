@@ -1,4 +1,4 @@
-#Default template system for django
+# Default template system for django
 
 ## Blocks used in template:
 * `block title` - title of page
